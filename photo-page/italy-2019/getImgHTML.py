@@ -8,7 +8,7 @@ Created on Sun Apr 12 15:26:52 2020
 import os
 
 out = '<div class="col-sm-12 col-md-4">\n<a class="lightbox" href="img/1.jpg">\n<img src="img/1.jpg" alt="1">\n</a>\n</div>\n'
-for n in range(2, 27):
+for n in range(2, 36):
     base = '<div class="col-sm-12 col-md-4">\n<a class="lightbox" href="img/{}.jpg">\n<img src="img/{}.jpg" alt="{}">\n</a>\n</div>\n'.format(n,n,n)
     out += base
     
